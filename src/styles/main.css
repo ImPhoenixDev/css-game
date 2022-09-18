@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+}
+
+.page {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.hidden {
+	opacity: 0;
+	color: transparent;
+}
+
+.animated {
+	transition-duration: 2s;
+	transition-timing-function: ease-in-out;
+	transition-property: all;
+	transition-delay: 1s;
+}
+
+.show {
+	display: block;
+	color: salmon;
+	opacity: 1;
+}
