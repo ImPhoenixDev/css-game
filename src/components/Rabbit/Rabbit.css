@@ -4,6 +4,7 @@
   position: relative;
   min-width: 80px;
   max-width: 80px;
+  cursor: pointer;
 }
 
 .left-ear--outer {

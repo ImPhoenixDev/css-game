@@ -4,8 +4,16 @@ import "./Rabbit.css";
 import "./Rabbit--animations.css";
 
 export function Rabbit({ className }) {
+  function handleOnClick() {
+    alert("Ya vamos a jugar!!!!!!!!!!!!!!!!!!!!!!!");
+  }
   return (
-    <div class={`rabbit ${className}`}>
+    <div
+      class={`rabbit ${className}`}
+      onClick={() => {
+        handleOnClick();
+      }}
+    >
       <div class="left-ear--outer"></div>
       <div class="left-ear--inner"></div>
       <div class="right-ear--outer"></div>
