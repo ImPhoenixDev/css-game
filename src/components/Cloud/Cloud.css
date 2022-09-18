@@ -1,0 +1,30 @@
+.cloud {
+  height:100px;
+  width:100px;
+  background-color:white;
+  border-radius:50%;
+  box-shadow:10px 5px 5px #8080804a;
+}
+
+/*extra poof for the clouds*/
+.cloud::before, .cloud::after {
+  content:"";
+  display:inline-block;
+  position:relative;
+  height:100px;
+  width:100px;
+  background-color:white;
+  border-radius:50%;
+}
+
+.cloud::before {
+  right:40px;
+  top:20px;
+}
+
+/*same as above, just winged it*/
+.cloud::after {
+  left:20px;
+  bottom:70px;
+  box-shadow:10px 5px 10px gray;
+}

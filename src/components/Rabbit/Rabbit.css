@@ -1,0 +1,67 @@
+.rabbit {
+  width: 30%;
+  height: 100px;
+  position: relative;
+  min-width: 80px;
+  max-width: 80px;
+}
+
+.left-ear--outer {
+  background: white;
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  left: 10px;
+}
+.left-ear--inner {
+  background: pink;
+  border-radius: 90%;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+.right-ear--outer {
+  background: white;
+  border-radius: 90%;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+}
+.right-ear--inner {
+  background: pink;
+  border-radius: 90%;
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+.head {
+  background: white;
+  border-radius: 50%;
+  height: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+}
+.head__eye {
+  background: gray;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 15px;
+}
+.head__eye--left {
+  left: 30px;
+}
+.head__eye--right {
+  right: 30px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Cloud from "../components/Cloud/Cloud";
 import Mountain from "../components/Mountain/Mountain";
+import { Rabbit } from "../components/Rabbit/Rabbit";
 
 import "../styles/main.css";
 import "../styles/phone.css";
@@ -12,7 +13,9 @@ export default function IndexPage() {
         <div class="background">
           <div class="mountains">
             <Cloud />
-            <Mountain className="mountain1" />
+            <Mountain className="mountain1">
+              <Rabbit className="rabbit--movement"/>
+            </Mountain>
             <Mountain className="mountain2" />
             <Mountain className="mountain3" />
           </div>

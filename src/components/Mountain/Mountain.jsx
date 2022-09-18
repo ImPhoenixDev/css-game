@@ -1,11 +1,13 @@
 import React from "react";
-import './Mountain.css';
+import {Rabbit} from "../Rabbit/Rabbit";
+import "./Mountain.css";
 
-export default function Mountain({className}) {
+export default function Mountain({ className, children }) {
   return (
     <div class={`mountain mountain--shadow ${className}`}>
       <div className="grass"></div>
       <div className="zigzag"></div>
+    {children}
     </div>
   );
 }
