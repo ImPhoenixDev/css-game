@@ -12,7 +12,7 @@ export default function IndexPage() {
       <div class="phone">
         <div class="background">
           <div class="mountains">
-            <Cloud />
+            <Cloud className="cloud-1"/>
             <Mountain className="mountain1">
               <Rabbit className="rabbit--movement"/>
             </Mountain>

@@ -1,0 +1,21 @@
+@keyframes cloud-1 {
+  0% {
+    transform: translateX(-100%) translateY(0);
+  }
+  25% {
+    transform: translateX(25%) translateY(25%);
+  }
+  50% {
+    transform: translateX(150%) translateY(0%);
+  }
+  75% {
+    transform: translateX(25%) translateY(25%);
+  }
+  100% {
+    transform: translateX(-100%) translateY(0%);
+  }
+}
+
+.cloud-1 {
+  animation: cloud-1 20s linear infinite;
+}

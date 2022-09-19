@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Cloud.css';
+import './Cloud--animations.css';
 
 export default function Cloud({className}) {
 	return (

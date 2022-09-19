@@ -17,6 +17,7 @@
   border: 3px solid #000;
   border-radius: 10px;
   margin: auto;
+  overflow: hidden;
 }
 
 @media (max-width: 600px) {
